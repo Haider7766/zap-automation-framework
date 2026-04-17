@@ -1,5 +1,4 @@
 package Util;
-
 import org.openqa.selenium.Proxy;
 import org.zaproxy.clientapi.core.*;
 
@@ -59,7 +58,7 @@ public class ZapUtil {
         }
     }
 
-    // 🔥 FIXED Active Scan
+    //FIXED Active Scan
     public static void startActiveScan(String targetUrl) {
         try {
             System.out.println("Starting Active Scan...");
@@ -106,7 +105,7 @@ public class ZapUtil {
                     null,
                     "ZapReport",                      // file name
                     null,
-                    System.getProperty("user.dir"),   // save path
+                    System.getProperty("user.dir"),  // save path
                     null
             );
 
